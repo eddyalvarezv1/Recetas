@@ -6,3 +6,7 @@
 .lista__item a{
     text-decoration: none;
 }
+
+.lista__item a:hover{
+    color: red;
+}
