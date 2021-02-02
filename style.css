@@ -1,0 +1,8 @@
+.lista__imagen{
+    width: 100px;
+    height: 100px;
+}
+
+.lista__item a{
+    text-decoration: none;
+}
