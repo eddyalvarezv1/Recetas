@@ -10,3 +10,9 @@
 .lista__item a:hover{
     color: red;
 }
+
+
+.tarjeta__imagen {
+    width: 200px;
+    height: 200px;
+}
