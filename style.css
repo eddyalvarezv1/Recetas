@@ -27,10 +27,11 @@
 }
 
 .tarjeta__titulo {
+    width: 100px;
     background-color: red;
     color: white;
     border-radius: 4px;
-    margin: 0 auto;
+    padding-left: 20px;
 }
 
 .tarjeta__imagen img {
@@ -39,7 +40,7 @@
 }
 
 .tarjeta__parrafo {
-    background-color: yellow;
+    background-color: red;
     color: white;
     border-radius: 4px;
     padding: 0 auto;
