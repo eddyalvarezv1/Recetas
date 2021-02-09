@@ -66,16 +66,20 @@
     height: 100px;
     width: 100px;
     display: inline-block;
-    width: 70%;
+    width: 63%;
 }
 
 .cabecera__nav {
     display: inline-block;
+    width: 35%;
 }
 
 .cabecera__nav ul{
+    list-style-type: none;
+}
+
+.cabecera__nav li{
     display: inline-block;
-    text-decoration: none;
 }
 
 .cuerpo {
