@@ -54,3 +54,64 @@
     margin: 15px 50px;
     width: 300px;
 }
+
+
+
+
+.cabecera {
+    background-color: red;
+}
+
+.cabecera__logo {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    width: 70%;
+}
+
+.cabecera__nav {
+    display: inline-block;
+}
+
+.cabecera__nav ul{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cuerpo {
+    background-color: yellow;
+}
+
+.cuerpo__articulos {
+    background-color: violet;
+    display: inline-block;
+    width: 20%;
+}
+
+.cuerpo__articulos img{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.cuerpo__contenido {
+    background-color: blue;
+    display: inline-block;
+    width: 75%;
+}
+
+.pie-de-pagina {
+    background-color: green;
+}
+
+.pie-de-pagina__contacto {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 80%;
+}
+
+.pie-de-pagina__creditos {
+    background-color: orange;
+    display: inline-block;
+    width: 18%
+}
