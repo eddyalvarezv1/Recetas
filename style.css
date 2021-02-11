@@ -25,6 +25,7 @@
     border-radius: 25px;
     background-color: gray;
     margin: 20px auto;
+    margin-top: 80px;
 }
 
 .tarjeta__titulo {
@@ -55,67 +56,85 @@
     width: 300px;
 }
 
-
-
-
 .cabecera {
     background-color: red;
+    width: 100%;
+    height: 110px;
 }
 
 .cabecera__logo {
     height: 100px;
-    width: 100px;
-    display: inline-block;
     width: 63%;
+    display: inline-block;
+}
+
+.cabecera__logo img{
+    width: 150px;
 }
 
 .cabecera__nav {
     display: inline-block;
-    width: 35%;
+    width: 36%;
+    position: relative;
+    bottom: 40px;
 }
 
-.cabecera__nav ul{
-    list-style-type: none;
+.cabecera__nav nav{
+    display: inline-block;
+    width: 36%;
 }
+
 
 .cabecera__nav li{
     display: inline-block;
+    margin: auto;
 }
 
 .cuerpo {
     background-color: yellow;
+    width: 100%;
+    height: 500px;
 }
 
 .cuerpo__articulos {
     background-color: violet;
     display: inline-block;
-    width: 20%;
+    width: 24%;
+    min-height: 500px;
 }
 
 .cuerpo__articulos img{
-    width: 100px;
+    width: 250px;
     height: 100px;
-    margin: 10px auto;
+    margin: 10px;
+    margin-left: 30px;
 }
 
 .cuerpo__contenido {
     background-color: blue;
     display: inline-block;
     width: 75%;
+    min-height: 500px;
+    position: relative;
+    bottom: 80px;
+    color: white;
 }
 
 .pie-de-pagina {
     background-color: green;
+    height: 100px;
 }
 
 .pie-de-pagina__contacto {
     background-color: blueviolet;
     display: inline-block;
     width: 80%;
+    height: 95px;
 }
 
 .pie-de-pagina__creditos {
     background-color: orange;
     display: inline-block;
-    width: 18%
+    width: 18%;
+    height: 95px;
 }
