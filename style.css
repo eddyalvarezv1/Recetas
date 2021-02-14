@@ -60,12 +60,12 @@
     background-color: red;
     width: 100%;
     height: 110px;
+    display: flex;
 }
 
 .cabecera__logo {
     height: 100px;
     width: 63%;
-    display: inline-block;
 }
 
 .cabecera__logo img{
@@ -73,21 +73,12 @@
 }
 
 .cabecera__nav {
-    display: inline-block;
-    width: 36%;
-    position: relative;
-    bottom: 40px;
-}
-
-.cabecera__nav nav{
-    display: inline-block;
     width: 36%;
 }
 
-
-.cabecera__nav li{
-    display: inline-block;
-    margin: auto;
+.cabecera__nav ul{
+    display: flex;
+    justify-content: space-between;
 }
 
 .cuerpo {
