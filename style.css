@@ -1,3 +1,7 @@
+:root{
+ --font-family:'Reggae One', cursive;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -81,6 +85,7 @@
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    font-family: var(--font-family);
 }
 
 .cuerpo {
@@ -126,6 +131,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-family);
 }
 
 .pie-de-pagina__creditos {
@@ -135,4 +141,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-family);
 }
