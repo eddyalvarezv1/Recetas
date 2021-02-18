@@ -8,19 +8,6 @@
     padding: 0;
 }
 
-.lista__imagen{
-    width: 100px;
-    height: 100px;
-}
-
-.lista__item a{
-    text-decoration: none;
-}
-
-.lista__item a:hover{
-    color: red;
-}
-
 .ceviche {
     padding-top:35px;
 }
@@ -90,12 +77,12 @@
 
 .cabecera__logo figure{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .cabecera__logo img{
     width: 150px;
-    display: block;
-    margin: 0 auto;
 }
 
 .cabecera__nav {
@@ -165,25 +152,56 @@
     font-family: var(--font-family);
 }
 
-@media (min-width: 800px){
-       
+@media (min-width: 700px){
+    .cabecera{
+        display: flex;
+    }
+
     .cabecera__logo {
-        width: 60%;
+        width: 50%;
     }
+    
+    .cabecera__logo figure{
+        width: 50%;
+        justify-content: flex-start;
+    }
+
     .cabecera__nav {
-        width: 40%;
+        height: 100px;
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
-    .cuerpo__contenido {
-        width: 70%;
+
+    .cabecera__nav {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
+
     .cuerpo__articulos {
-        width: 30%;
-        order: 1;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .cuerpo__articulos section{
+        width: 50%;
+    }
+
+    .cuerpo__articulos figure{
+        padding: 25px 0;
+    }
+
+    .pie-de-pagina{
+        display: flex;
+    }
+
     .pie-de-pagina__contacto{
-        width: 70%;
+        width: 80%;
     }
+
     .pie-de-pagina__creditos {
-        width: 30%;
+        width: 20%;
     }
 }
