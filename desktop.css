@@ -1,3 +1,8 @@
+.layout{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .cuerpo{
     display: flex;
     flex-direction: row-reverse;

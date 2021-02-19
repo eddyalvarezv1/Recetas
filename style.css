@@ -97,6 +97,14 @@
     font-family: var(--font-family);
 }
 
+.cabecera__nav li:hover {
+    color: white;
+}
+
+.cabecera__nav li::after {
+    content: "|";
+}
+
 .cuerpo {
     background-color: yellow;
     width: 100%;
