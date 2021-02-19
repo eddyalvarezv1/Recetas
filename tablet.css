@@ -1,0 +1,48 @@
+.cabecera{
+    display: flex;
+}
+
+.cabecera__logo {
+    width: 50%;
+}
+
+.cabecera__logo figure{
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.cabecera__nav {
+    height: 100px;
+    width: 50%;
+}
+
+.cabecera__nav ul{
+    align-items: center;
+    height: 100%;
+}
+
+.cuerpo__articulos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuerpo__articulos section{
+    width: 50%;
+}
+
+.cuerpo__articulos figure{
+    padding: 25px 0;
+}
+
+.pie-de-pagina{
+    display: flex;
+}
+
+.pie-de-pagina__contacto{
+    width: 80%;
+}
+
+.pie-de-pagina__creditos {
+    width: 20%;
+}
+}

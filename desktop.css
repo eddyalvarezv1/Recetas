@@ -1,0 +1,34 @@
+.cuerpo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cuerpo__contenido {
+    width: 70%;
+}
+
+.cuerpo__articulos {
+    width: 30%;
+    display: block;
+}
+
+.cuerpo__articulos section{
+    width: 100%;
+}
+
+.cuerpo__articulos img{
+    margin: auto;
+}
+
+.pie-de-pagina{
+    display: flex;
+}
+
+.pie-de-pagina__contacto{
+    width: 80%;
+}
+
+.pie-de-pagina__creditos {
+    width: 20%;
+}
+}
